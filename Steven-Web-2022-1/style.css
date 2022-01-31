@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000;
+  line-height: 1.5;
+  font-size: 14px;
+}
+h1 {
+  font-size: 70px;
+  color: #fff;
+}
+li {
+  list-style-type: none;
+  font-weight: bold;
+}
+a:visited {
+  color: #c59b64;
+}
+a:hover {
+  color: #3a3629;
+}
+.container-page {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.site-header {
+  background-color: #54596e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 12px;
+}
+.links {
+  display: flex;
+  gap: 30px;
+  margin-right: 15px;
+}
+section {
+  background-color: #4548e2;
+  background-color: #fff;
+  display: flex;
+  padding: 14px 10px 14px 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+  border: 2px solid #000;
+}
+article {
+  flex: 200px;
+}
+.continue {
+  text-align: center;
+}
+h3 {
+  padding-bottom: 12px;
+  color: #ffcf91;
+}
+.newsletter-form {
+  border: 4px solid white;
+  padding: 60px;
+  border-radius: 50%;
+}
+.frm-lbl {
+  margin-bottom: 8px;
+}
+label {
+  display: inline-block;
+  width: 200px;
+  text-align: right;
+  color: #fff;
+}
+.newsletter-button {
+  border: 0;
+  line-height: 2;
+  padding: 0 15px;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.newsletter-button:hover {
+  background-color: #ffcf91;
+  cursor: pointer;
+}
+
+.spaceship {
+  background-color: #54596e;
+  text-align: center;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+footer {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
